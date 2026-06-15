@@ -1,0 +1,20 @@
+name: LinkedIn Content Bot
+
+on:
+schedule:
+- cron: '30 2 * * *'
+- cron: '30 7 * * *'
+- cron: '30 13 * * *'
+workflow_dispatch:
+
+jobs:
+generate:
+runs-on: ubuntu-latest
+
+```
+steps:
+  - name: Repository Ready
+    run: |
+      echo "LinkedIn Content Bot Active"
+      echo "Morning, Afternoon and Evening runs configured"
+```
