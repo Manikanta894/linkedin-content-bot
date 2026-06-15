@@ -1,12 +1,12 @@
-name: LinkedIn Content Bot
+name: Test Workflow
 
 on:
   workflow_dispatch:
 
 jobs:
-  test:
+  hello:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Success Test
-        run: echo "Bot is working!"
+      - name: Hello
+        run: echo "Hello Manikanta"
